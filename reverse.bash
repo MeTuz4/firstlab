@@ -1,5 +1,4 @@
 #!/bin/bash
 
 
-tac $1 > $a
-rev $a > $2
+tac $1 | rev > $2
