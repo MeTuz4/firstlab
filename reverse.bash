@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-tac $1 | tac > $2
-rm ./testfol/temp
+tac $1 > $a
+rev $a > $2
